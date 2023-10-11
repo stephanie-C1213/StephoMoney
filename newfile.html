@@ -41,36 +41,43 @@
             width: 100%;
             height: 100vh;
         }
-        
+        .first{
+            flex-grow: 0;
+            flex-basis: 200px;
+        }
+        .second{
+            width: 500px;
+        }
+        div{
+            /* outline: 2px solid black; */
+            background-color: teal;
+        }
+        .inner-container >{
+            background-color: aqua;
+            height: 90%;
+            justify-content: center;
+        }
     </style>
 </head>
 
 
 <body>
-    <!-- <div class="big-container">
-        <div class="line1">
-            <div><img src="images/2150797026.jpg" alt=""></div>
-            <div><img src="images/photo-1605559424843-9e4c228bf1c2.jpeg" alt=""></div>
-            <div><img src="images/rimac-nevera.jpg" alt=""></div>
-        </div>
-        <div class="line2">
-            <div><img src="images/1234.jpg" alt=""></div>
-            <div><img src="images/white-offroader-jeep-parking.jpg" alt=""></div>
-            <div><img src="images/2150796904.jpg" alt=""></div>
-        </div>
-    </div> -->
+
 
     <section class="big-container">
         <section class="inner-container">
             <header class="line1">
-                <div><img src="images/2150797026.jpg" style="height: 100px; width: 100px;" alt=""></div>
-                <div><img src="images/2150797026.jpg" style="height: 100px; width: 100px;" alt=""></div>
-                <div><img src="images/2150797026.jpg" style="height: 100px; width: 100px;" alt=""></div>
+                <div><img src="images/2150797026.jpg" style="height: 300px; width: 500px; object-fit: cover;" alt=""></div>
+                <div><img src="images/2150797026.jpg" style="height: 300px; width: 300px;" alt=""></div>
+                <div><img src="images/2150797026.jpg" style="height: 300px; width: 300px;" alt=""></div>
             </header>
             <header class="line2">
-                <div><img src="images/2150797026.jpg" style="height: 100px; width: 100px;" alt=""></div>
-                <div><img src="images/2150797026.jpg" style="height: 100px; width: 100px;" alt=""></div>
-                <div><img src="images/2150797026.jpg" style="height: 100px; width: 100px;" alt=""></div>
+                <div><img class="first" src="images/2150797026.jpg" style="height: 300px; width: 500px;" alt=""></div>
+                <div><img class="second" src="images/2150797026.jpg" style="height: 300px; width: 300px;" alt=""></div>
+                <div><img src="images/2150797026.jpg" style="height: 300px; width: 300px;" alt=""></div>
+                <div></div>
+                <div></div>
+
             </header>
 
         </section>
