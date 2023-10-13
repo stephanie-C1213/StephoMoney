@@ -559,6 +559,7 @@
     padding: 206px 0px 157px;
     margin-left: 150px;
     display: flex;
+    gap: 40px;
    }
    .section-7 h1{
     color: rgb(33, 15, 96);
@@ -567,19 +568,77 @@
     margin-bottom: 2px;
     text-align: left;
     
+    
    }
    .section-7 .rectangle1{
     padding: 40px;
     background-color: #f4fcfa;
     border-radius: 30px;
-    width: 555px;
+    width: 590px;
     box-sizing: border-box;
-    margin-top: 30px;
+    height: 170px;
+    margin-top:130px;
+    position: center;
    }
    .section-7-image{
-    display: fl;
-    justify-content: space-between;
+    margin-top: 120px;
+    
    }
+   .section-7 .rectangle2{
+    padding: 40px;
+    background-color: #f4fcfa;
+    border-radius: 30px;
+    width: 590px;
+    box-sizing: border-box;
+    height: 170px;
+    margin-top:30px;
+
+   }
+   .rect-txt .head{
+    color: rgb(33, 15, 96);
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+   }
+   .rect-txt .par{
+    color: rgba(33, 15, 96, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+   }
+   .section-8{
+    /* width: 100%;
+    height: 70vh; */
+    padding: 134px 0px 171px;
+    display: flex;
+    justify-content: center;
+
+   }
+   .section-8-main{
+    width: 85%;
+    height: 80vh;
+    border-radius: 30px;
+    background-color: #210f60;
+    position: relative;
+    display: flex;
+    z-index: -1;
+    /* justify-content: center; */
+    padding: 113px 0px 152px 60px;
+   }
+   .section-8-main .group2{
+    position: absolute;
+    right: 60px;
+    bottom: 30px;
+    /* object-fit: cover;
+    object-position: center center */
+  
+   }
+   .section-8-img{
+    
+   }
+ 
+
 
     </style>
 </head>
@@ -742,12 +801,34 @@
             <h1>
                 Your Security and <br> Privacy is our priority
             </h1>
-            <div class="rectangle1"></div>
-            <div class="rectangle2"></div>
+            <div class="rectangle1 rect-txt"> 
+                <div class="head">Advanced Fraud Detection</div>
+                <div class="par">Your data is stored and encrypted using strong <br> cryptography. We scan our systems daily against security threats.</div>
+            </div>
+            <div class="rectangle2 rect-txt">
+                <div class="head">Safe Transactions</div>
+                <div class="par">We are compliant with PCI DSS. Your transactions are <br> always encrypted and secured.</div>
+            </div>
             </div>
             <div class="group-2">
                 <div class="section-7-image">
                     <img src="images/security2.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section-8">
+            <div class="section-8-main">
+                <div class="group-1">
+                    <h1>We are here to help!</h1>
+                    <h2>Chat with us via our in-app live chat or send us a message on our <br> official social media pages. If you require further assistance, contact us <br> via the following channels:</h2>
+                    <p></p>
+                    <p></p>
+    
+                </div>
+                <div class="group2">
+                    <div><img class="sectiom-8-img" src="images/help.png" alt=""></div>
                 </div>
 
             </div>
