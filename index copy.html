@@ -294,7 +294,7 @@
 
    }
    .section-3-deets h1{
-    margin-left: 190px;
+    margin-left: 150px;
     color: #210f60;
     font-size: 36px;
     margin-top: 5%;
@@ -329,14 +329,17 @@
     padding-top: 18%;
    }
 
-   @media (max-width: 480px){
-    .nav-links a{
-        display: none;
-    }
+   .ri-menu-line{
+    display: none;
    }
+
    @media (max-width: 768px){
-    .nav-links a{
-        display: none;
+    .nav-links {
+        display: block;
+    }
+
+    .ri-menu-line{
+        display: block;
     }
    }
    @media (max-width: 834px){
@@ -502,84 +505,36 @@
     color: #34495e;
    }
 
-   .section-6-body{
-/*         
-        width: 100%;
-        background-color: #f4fcfa;
-        margin: 135px 0px 30px;
-        padding: 66px 0px 105px;
-        height: 110vh;
-        align-items: center;
-         */
-        margin-left: 150px;
-        /* position: relative; */
-   }
-   .section-6-images{
-        display: flex;
-        margin: 86px 0px 0px;
-        padding: 0px 0px 65px;
-        margin-left: -18px;
 
-        
+   .menu-icon{
+    display: none;
    }
-   .section-6{
-        width: 100%;
-        background-color: #f4fcfa;
-        margin: 135px 0px 30px;
-        padding: 66px 0px 105px;
-        height: 100vh;
-        align-items: center;
-        
-        
-   }
-   
-   #texts h1{
-    font-size: 52px;
-    color: #210f60;
-    line-height: 64px;
-    margin-bottom: 2px;
-   }
-
-   #texts p{
-    font-size: 36px;
-    color: #210f60;
-    line-height: 54px;
-    margin-bottom: 2px;
-   }
-   .section-6-line{
-    /* position: absolute; */
-    /* right: 0; */
-    height: 0.35rem;
-    width: 21rem;
-    background-color: #00926E;
-    border-radius: 3px;
-    margin-left: -20px;
-   }
-   .section-7{
-    padding: 206px 0px 157px;
-    margin-left: 150px;
-    display: flex;
-   }
-   .section-7 h1{
-    color: rgb(33, 15, 96);
-    font-size: 52px;
-    line-height: 64px;
-    margin-bottom: 2px;
-    text-align: left;
+  
+   @media (max-width:767px) {
+    .menu-icon{
+        display: block;
+    }
     
+    nav{
+        gap:10em;
+    }
    }
-   .section-7 .rectangle1{
-    padding: 40px;
-    background-color: #f4fcfa;
-    border-radius: 30px;
-    width: 555px;
-    box-sizing: border-box;
-    margin-top: 30px;
+
+   .nav-links{
+    position: relative;
    }
-   .section-7-image{
-    display: fl;
-    justify-content: space-between;
+
+   .drop-items{
+    position:absolute;
+    top:50px;
+    left:0;
+    display: none;
    }
+
+   .nav-links .mae:hover .drop-items{
+    display: block;
+   }
+
 
     </style>
 </head>
@@ -591,11 +546,19 @@
                     <img src="images/Opay-New-Logo-2023-.png" alt="">
                 </div>
                 <div class="nav-links">
-                    <a href="#" class="personal">Personal</a>
+                    <a href="#" class="personal mae">Personal
+                    </a>
+                    <div class="drop-items">
+                        <a href="#">Click</a>
+                        <a href="#">Dont worry</a>
+                        <a href="#">Dont worry</a>
+                        <a href="#">Dont worry</a>
+                    </div>
                     <a href="#" class="links">Business</a>
                     <a href="" class="links">Documentation</a>
                     <a href="" class="links">Company <img src="images/07426e86-7b6c-4e5a-90f8-5ae5e448ba96.svg" alt=""></a>
                     <a href="" class="links">Join Us <img src="images/07426e86-7b6c-4e5a-90f8-5ae5e448ba96.svg" alt="" class="drop2"></a>
+                    <i class="ri-menu-line menu-icon"></i>
                 </div>
             </nav>
 
@@ -717,40 +680,6 @@
             </div>
             
 
-        </div>
-
-        <div class="section-6">
-            <div class="section-6-body">
-                <div id="texts">
-                    <h1>No transaction failure on Opay.</h1>
-                    <p>Heres what our customers think</p>
-                </div>
-                <div class="section-6-images">
-                    <img src="images/twitter1.png" alt="">
-                    <img src="images/twitter2.png" alt="">
-                    <img src="images/twitter3.png" alt="">
-                </div>
-                <div class="section-6-line">
-                 
-                </div>
-            </div>
-        
-        </div>
-
-        <div class="section-7">
-            <div class="group-1">
-            <h1>
-                Your Security and <br> Privacy is our priority
-            </h1>
-            <div class="rectangle1"></div>
-            <div class="rectangle2"></div>
-            </div>
-            <div class="group-2">
-                <div class="section-7-image">
-                    <img src="images/security2.png" alt="">
-                </div>
-
-            </div>
         </div>
 
     </div>
