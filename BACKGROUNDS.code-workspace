@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../BACKGROUNDS"
+		},
+		{
+			"path": "../PRACTICE1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PROJECT1"
+	}
+}
