@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+
+    <style>
+                *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: sans-serif;
+        
+    }
+
+    body{
+        background-color: white;
+        overflow-x: hidden;
+        
+    }
+    .section-1{
+        width: 100%;
+        height: 156vh;
+    }
+
+    .logo img{
+        /* object-fit: cover; */
+        margin-left: 9.4rem;
+        width: 220px;
+        height: auto;
+    }
+    
+    nav{
+        background-color: white;
+        width: 100%;
+        height: 10vh;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        color: #262626;
+        font-size: 1.25rem;
+        font-weight: 400;
+        text-align: center;
+        gap: 270px;
+        /* box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.363); */
+        
+    }
+    
+    .nav-links{
+        justify-content: space-evenly;
+        width: 35%;
+        display: flex;
+        /* align-items: center; */
+        margin-right: 130px;
+    }
+
+    .links{
+        text-decoration: none;
+        color: #262626;
+        justify-content: space-evenly;
+    }
+
+    .home{
+       color: #262626; 
+       font-weight: 500;
+       font-weight: bolder;
+       /* text-decoration: underline 2px solid #1dcf9f ; */
+       position: relative;
+    }
+    .line{
+        width: 3.5rem;
+        height: 3px;
+        background-color: #1dcf9f;
+        position: absolute;
+        margin-top: 5px;
+    }
+    .hero-section{
+        width: 100%;
+        height: 84vh;
+        background-color: #eff1ee;
+        padding-top: 6rem;
+        padding-bottom: 0.5rem;
+        display: flex;
+        position: relative;
+    }
+    .hero-group-1{
+        margin-left: 9.4rem;
+    }
+    .hero-group-1 h1{
+        font-size: 63px;
+        font-weight: 800;
+        line-height: 4.5rem;
+        color: #210f60;
+
+    }
+    .hero-group-1 p{
+        font-size:22px;
+        color: #210f60;
+        padding: 2.8rem 0 2.8rem;
+    }
+    .hero-group-1 button{
+    cursor: pointer;
+    width: 16.6rem;
+    height: 4rem;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 800;
+    text-align: center;
+    line-height: .416667rem;
+    border-radius: 2rem;
+    background: #1dcf9f;
+    border-style: none;
+    margin-bottom: 5rem ;
+    }
+    .hero-group-2{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        top: 10.4rem;
+    }
+    .license{
+        display: flex;
+        font-size: 17px;
+        font-weight: 800;
+        color: #210f60;
+        gap: 1.5rem;
+    }
+    .license-grp-1, .license-grp-2{
+        display: flex;
+        gap: 0.5rem;
+    }
+    .license-grp-1 img, .license-grp-2 img{
+        width: auto;
+        height: 2rem;
+        margin-top: -6px;
+    }
+    .license-grp-1{
+        border-right: 2px solid black;
+        padding-right: 1rem;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="all-sections">
+        <div class="section-1">
+            <nav>
+                <div class="logo">
+                    <img src="images/logo-f52060c7.png" alt="">
+                </div>
+                <div class="nav-links">
+                    <a href="#" class="home">Home
+                        <div class="line"></div>
+                    </a>
+                    <a href="#" class="links">Payments</a>
+                    <a href="" class="links">Solutions</a>
+                    <a href="" class="links">About Us</a>
+                
+                </div>
+            </nav>
+            <div class="hero-section">
+                <div class="hero-group-1">
+                    <h1>Reliable, Fast &<br>Safe Payments</h1>
+                    <p>Get omnichannel payment solutions to grow <br> your business better!</p>
+                    <button>Contact Us</button>
+                    <div class="license">
+                        <div class="license-grp-1">
+                            <div>Licensed by CBN</div>
+                            <img src="images-3$4/icon-cbn-9e0900ac.png" alt="">
+                        </div>
+                        <div class="license-grp-2">
+                            <div>Insured by</div>
+                            <img src="images-3$4/icon-ndic-1b3b5877.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-group-2">
+                    <img src="images-3$4/banner-588cbfbc.png" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
