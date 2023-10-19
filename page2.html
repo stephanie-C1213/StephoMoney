@@ -156,7 +156,7 @@
     }
     .section-2{
         width: 100%;
-        height: 120vh;
+        /* height: 2500vh; */
         background-color: white;
         margin-bottom: 6rem;
     }
@@ -213,6 +213,89 @@
     .section-2-grp2 .sect2-minor-txt{
         margin-left: 70px;
     }
+    footer{
+        background-color: #210F60;
+        width:100%;
+        height: 18rem;
+        margin-top: 10rem;
+    }
+    .page2-footer-contents {
+        /* width: 80%; */
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem 0rem 2rem;
+        color: white;
+
+        /* gap: -10rem; */
+    }
+    .page2-footer-grp1{
+        display: flex;
+        gap: 15rem;
+        margin-right: 10rem;
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+        padding-bottom: 1rem;
+    }
+    .page2-footer-contents>img{
+        width: auto;
+        height: 8.5rem;
+        margin-left: 12rem;
+        padding-top: 2.5rem;
+        
+    }
+    .page2-footer-grp1 div{
+        font-size: 25px;
+        text-align: center;
+        font-weight: 700;
+        
+        
+    }
+    .imgpart{
+        display: flex;
+        width: auto;
+        height: 1.2rem;
+        /* font: 10px; */
+        gap: 8px;
+        position: relative;
+
+
+    }
+    .imgpart div{
+        font-size: 12px;
+        text-decoration: underline;
+        position: absolute;
+        right: 0;
+        left: 25px;
+        top: 0px;
+        bottom: 1px;
+        font-weight: 600;
+        
+    }
+    .page2-footer-grp2{
+        padding-top: 2rem;
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 13.5rem;
+    }
+    .text-part div{
+        padding-top: 0.6rem;
+        padding-bottom: 1rem;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .text-part p{
+        font-size: 13px;
+    }
+    .part2 div{
+        font-size: 13.5px;
+        line-height: 25px;
+
+    }
+    .page2-footer-icons img{
+        width: auto;
+        height: 2.3rem;
+        padding-top: 10px;
+        margin-right: 0.8rem;
+    }
 </style>
 <body>
     <div class="all-sections">
@@ -248,7 +331,7 @@
                 </div>
             </div>
         </div>
-        <section class="section-2">
+        <div class="section-2">
             <div class="main-txt">Company Values</div>
             <div class="section-2-grp1 section-2-group1 ">
                 <div class="sect2-minor-txt">
@@ -282,7 +365,44 @@
                 </div>
             </div>
             
-        </section>
+        </div>
+
+        <footer>
+            <div class="page2-footer-contents">
+                <img src="images/footer-logo-54a9665b.png" alt="">
+                <div class="page2-footer-text" >
+                    <div class="page2-footer-grp1">
+                        <div>Payments</div>
+                        <div>Solutions</div>
+                        <div>About OPay</div>
+                    </div>
+                    <div class="page2-footer-grp2">
+                        <div class="part1">
+                            <div class="imgpart">
+                                <img src="images/icon-local-2895c044.png" alt="img">
+                                <div>Lagos</div>
+                            </div>
+                            <div class="text-part">
+                                <div>Plot 9, Dr. Nurudeen Olowopopo Avenue, Central Business District, Alausa 100212, <br> Ikeja, Lagos, Nigeria</div>
+                                <p>Over 24 physical branches across the nation.</p>
+                            </div>
+                            
+                        </div>
+                        <div class="part2">
+                            <div>Contact with us</div>
+                            <div>info@opay-business.com</div>
+                            <div class="page2-footer-icons">
+                                <img src="images/icon-ins-e5c4cca2.png" alt="img">
+                                <img src="images/icon-facebook-0605b220 (1).png" alt="img">
+                                <img src="images/icon-twitter-9311abde.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    
+        </footer>
+
 
     </div>
 </body>
